@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.example.ScientificCalculator</OriginalElement>
+  <nodes>
+    <node x="59.04976800689593" y="613.3337080838843">org.example.Controller</node>
+    <node x="12.530726080651007" y="106.37880822520367">org.example.ScientificCalculator</node>
+    <node x="157.7679616911074" y="-169.0687186724532">org.example.AboutAuthorFrame</node>
+    <node x="39.272315585062685" y="475.6986557254302">org.example.StartFrame</node>
+    <node x="-94.24797599517652" y="-166.22466810754224">org.example.AboutProgramFrame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.ScientificCalculator" target="org.example.AboutProgramFrame" relationship="CREATE">
+      <point x="-110.5" y="-82.5" />
+      <point x="18.778702075827525" y="38.5" />
+    </edge>
+    <edge source="org.example.StartFrame" target="org.example.ScientificCalculator" relationship="CREATE">
+      <point x="-3.241589504411678" y="-38.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="org.example.ScientificCalculator" target="org.example.AboutAuthorFrame" relationship="CREATE">
+      <point x="110.49999999999999" y="-82.5" />
+      <point x="-11.237235610456395" y="38.5" />
+    </edge>
+    <edge source="org.example.Controller" target="org.example.StartFrame" relationship="CREATE">
+      <point x="0.22254757816675408" y="-38.5" />
+      <point x="0.0" y="38.49999999999994" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6400000000000001" showDependencies="true" x="126.0" y="260.5" />
+  <SelectedNodes>
+    <node>org.example.ScientificCalculator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
